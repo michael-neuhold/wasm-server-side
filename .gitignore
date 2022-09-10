@@ -11,3 +11,6 @@ Cargo.lock
 
 # exclude wagi executable
 wagi
+
+# exclude logs
+/logs
