@@ -1,3 +1,7 @@
 [[module]]
 route = "/example2-ping"
 module = "./target/wasm32-wasi/debug/example2.wasm" 
+
+[[module]]
+route = "/example3"
+module = "./target/wasm32-wasi/debug/example3.wasm" 
