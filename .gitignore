@@ -14,3 +14,6 @@ wagi
 
 # exclude logs
 /logs
+
+# exclude fileserver
+*.wasm
