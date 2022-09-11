@@ -40,7 +40,7 @@ All commands are specified in [justfile](./justfile).
 ## Wagi http request handler 
 [Package](./example2)
 
-The next examples use `watchexec` which simply recompiles the source code when it is updated. For this example to run, a `modules.toml` file has to be created. For that example it is enough to add the following lines to the file:
+The next examples use `watchexec` which simply recompiles the source code when it is updated. For this example to run, a `modules.toml` file has to be created. For this example it is sufficient to insert the following lines into the file:
 ````TOML
 [[module]]
 route = "/example2-ping"
